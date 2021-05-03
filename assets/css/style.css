@@ -86,16 +86,18 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-l-b-c {
+.benefit-common {
     margin-bottom: 32px;
     color: #ffffff;
-}
+    }
 
-.benefit-lead h3 {
+
+
+.benefit-common h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -104,14 +106,14 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+}*/
 
-.benefit-lead img {
+.benefit-common img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*
 .benefit-brand img {
     display: block;
     margin: 10px auto;
@@ -123,7 +125,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -178,13 +180,21 @@ p {
     font-size: 36px;
 }
 
+.margin-bot-20-large 
+{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
     font-size: 20px;
 }
+
+/*.footer h2 {
+    font-size: 20px;
+}
+*/
