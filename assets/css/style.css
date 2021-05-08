@@ -1,19 +1,29 @@
+/* 
+universal selector (*) selects all HTML 
+elements on the page
+*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* 
+For body element styles the background white
+*/
 body {
     background-color: #d9dcd6;
 }
 
+/*
+Sets styles for header element and its subelements
+*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
+
 
 .header h1 {
     display: inline-block;
@@ -24,13 +34,6 @@ body {
     color: #d9dcd6;
 }
 
-/*.header nav {
-    display: inline-block;
-    margin-left: 450px;
-    text-align: right;
-    padding-right: 30px;
-   
-  }*/
 
 .header nav {
     padding-top: 15px;
@@ -39,46 +42,39 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     list-style-type: none;
-    /*display: inline-block;*/
-    
+       
 }
-
-/*.header nav /*ul*/ /*{
-    
-    /*margin-left: 25px;*/
-
-
-/*.header nav /*ul li*//* {
-    
-}*/
+/*
+==========================================================
+*/
 
 /*
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}*/
-
-
+sets default text color and cursor for ankor elements
+*/
 a {
-        color: #ffffff;
+    color: #ffffff;
     text-decoration: none;
 }
 
-
-
+/*
+Sets styles for hero element and its subelements
+*/
 .hero {
     
     margin-bottom: 25px;
-   /* background-image: url("../images/digital-marketing-meeting.jpg");*/
-   /* background-size: cover;
-    background-position: center;*/
 }
 
 .hero img {
     height: 800px;
     width: 100%;
 }
+/*
+========================================================
+*/
 
+/*
+text/element floating utility styles
+*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -89,6 +85,9 @@ a {
     margin-left: 25px;
 }
 
+/*
+sets styles for element and subelements in section content
+*/
 .content {
     width: 75%;
     display: inline-block;
@@ -99,6 +98,9 @@ a {
     font-size: 16px;
 }
 
+/*
+Sets styles for benefits element and its subelements
+*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -119,36 +121,17 @@ a {
     margin-bottom: 10px;
     text-align: center;
 }
-/*
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}*/
 
 .benefit-common img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/*
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/*
+Sets styles for side-bar element and its subelements
 */
-/*.side-bar-common*/
 .side-bar-common {
     margin-bottom: 20px;
     padding: 50px;
@@ -157,52 +140,9 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-/*.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}*/
-
-/*.side-bar-common img*/
 .side-bar-common img {
     max-height: 200px;
 }
-
-/*.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}*/
-
-/*.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}*/
 
 .side-bar-common h2
 {
@@ -210,6 +150,9 @@ a {
     font-size: 36px;
 }
 
+/*
+Sets styles for footer element
+*/
 .footer {
     padding: 30px;
     clear: both;
@@ -218,7 +161,3 @@ a {
     font-size: 20px;
 }
 
-/*.footer h2 {
-    font-size: 20px;
-}
-*/
