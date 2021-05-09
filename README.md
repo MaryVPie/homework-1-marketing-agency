@@ -9,7 +9,7 @@
 
 ## Screenshots and mockups of the page
 
-|<img src=".\readme_assets\maryvpie.github.io_homework-1-marketing-agency_.png" width="500" height="750" alt="Homepage"/>| <img src=".\readme_assets\01-html-css-git-homework-demo.png" width="500" height="750" alt="Homepage"/> |
+|<img src=".\readme_assets\maryvpie.github.io_homework-1-marketing-agency_.png" width="500" height="750" alt="Homepage"/>| <img src=".\readme_assets\01-html-css-git-homework-demo.png" width="500" height="750" alt="Mockup"/> |
 | --- | --- |
 |  Work done | Mockup |
 
